@@ -1,0 +1,36 @@
+$modified_azure : rgb(170, 233, 233);
+$mui_shadow :rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+$n77_color :rgb(141, 93, 39);
+
+.quotebox {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: $modified_azure;
+    width: 75vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: $mui_shadow;
+    .quoteall {
+        padding-top:70px;
+        color:$n77_color;
+        font-weight: bold;
+        font-size:20pt;
+        display:block;
+    }
+    .quote {
+        width:70vw;
+        display: block;
+    }
+    .author{
+        padding-top:20px;
+        color:$n77_color
+    }
+    .twitter{
+        height: 50px;
+        width: 55px;
+        float:right;
+        cursor: pointer;
+    }
+}

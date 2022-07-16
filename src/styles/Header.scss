@@ -1,0 +1,11 @@
+$modified_azure : rgb(170, 233, 233);
+$mui_shadow :rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+$n77_color :rgb(141, 93, 39);
+
+.header {
+    background-color: blue;
+    color:white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: $mui_shadow;
+}
